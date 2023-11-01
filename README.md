@@ -1,76 +1,21 @@
 # Nuxt 3 Minimal Starter
+![version](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fsh0tx420%2Fmodernbb%2Fmain%2Fpackage.json&query=%24.version&style=for-the-badge&label=version&color=purple)
+![license](https://img.shields.io/github/license/sh0tx420/modernbb?style=for-the-badge&color=green)
+![codesize](https://img.shields.io/github/languages/code-size/sh0tx420/modernbb?style=for-the-badge)
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
-note for collaborators: please use [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
-
-## Setup
-
-Make sure to install the dependencies:
-
-```bash
-# npm
+# Quickstart guide
+```sh
+# Install dependencies
 npm install
 
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
+# Run dev server
 npm run dev
 
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
+# Build project
 npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
 ```
+Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
+Note for collaborators: please use [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
