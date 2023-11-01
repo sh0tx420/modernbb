@@ -20,6 +20,8 @@ logs
 bun.lockb
 yarn.lock
 package-lock.json
+*.sh
+dev
 
 # Local env files
 .env
