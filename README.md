@@ -1,5 +1,6 @@
 # modernbb
 Modern forum software built with NuxtJS.
+<br>
 ![version](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fsh0tx420%2Fmodernbb%2Fmain%2Fpackage.json&query=%24.version&style=for-the-badge&label=version&color=purple)
 ![license](https://img.shields.io/github/license/sh0tx420/modernbb?style=for-the-badge&color=green)
 ![codesize](https://img.shields.io/github/languages/code-size/sh0tx420/modernbb?style=for-the-badge)
