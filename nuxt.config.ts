@@ -3,18 +3,17 @@ export default defineNuxtConfig({
     devtools: { enabled: false },
     pages: true,
     srcDir: "src/",
-    css: ["~/assets/css/main.css"],
+    css: ["~/assets/css/tailwind.css"],
     modules: [
         "@nuxt/ui",
+        "@nuxtjs/color-mode",
         ["@nuxtjs/google-fonts", {
             display: "swap",
-            download: true,
             base64: true,
-            overwriting: true,
-            stylePath: "~/assets/css/googlefonts.css",
             families: {
                 "Exo 2": [700],
-                "Rubik": [300, 400]
+                "Rubik": [300, 400],
+                "DM Mono": true
             }
         }]
     ],
@@ -27,10 +26,12 @@ export default defineNuxtConfig({
     },
     tailwindcss: {
         config: {
+            darkMode: ["class", '[data-mode="dark"'],
             theme: {
                 fontFamily: {
-                    exo2: "Exo 2",
-                    rubik: "Rubik"
+                    sans: ["Rubik", "sans-serif"],
+                    serif: ["Exo 2", "serif"],
+                    mono: ["DM Mono", "monospace"]
                 }
             }
         }
