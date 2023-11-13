@@ -4,6 +4,7 @@
   "version": "0",
   "devDependencies": {
     "@nuxt/devtools": "latest",
+    "@nuxtjs/i18n": "next",
     "nuxt": "^3.8.0",
     "typescript": ">=4.7",
     "vue": "^3.3.7",
