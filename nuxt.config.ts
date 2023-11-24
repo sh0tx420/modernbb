@@ -3,20 +3,14 @@ export default defineNuxtConfig({
     devtools: { enabled: false },
     pages: true,
     srcDir: "src/",
-    css: ["~/assets/css/tailwind.css"],
+    css: ["~/assets/css/tailwind.css", "~/assets/css/headerfix.css"],
     modules: [
         "@nuxt/ui",
         "@nuxtjs/color-mode",
         "@nuxtjs/i18n",
-        ["@nuxtjs/google-fonts", {
-            display: "swap",
-            base64: true,
-            families: {
-                "Exo 2": [700],
-                "Rubik": [300, 400],
-                "DM Mono": true
-            }
-        }]
+        "@sidebase/nuxt-auth",
+        "@nuxtjs/google-fonts",
+        "@pinia/nuxt"
     ],
     app: {
         head: {
@@ -51,10 +45,25 @@ export default defineNuxtConfig({
             theme: {
                 fontFamily: {
                     sans: ["Rubik", "sans-serif"],
-                    serif: ["Exo 2", "serif"],
+                    serif: ["Exo 2", "serif"],  // ne rabotaet blyat
                     mono: ["DM Mono", "monospace"]
                 }
             }
+        }
+    },
+    auth: {
+        isEnabled: true,
+        provider: {
+            type: "local"
+        }
+    },
+    googleFonts: {
+        display: "swap",
+        base64: true,
+        families: {
+            "Exo 2": [700],
+            "Rubik": [300, 400],
+            "DM Mono": true
         }
     }
 });
