@@ -13,8 +13,9 @@ function ChangeGlobalBgColor(color: string) {
 </script>
 
 <template>
-    <div :style="{ backgroundColor: bgColor }" :ui="{ color: { primary: 'purple' } }">
+    <div>
         <Navbar />
         <LazyNuxtPage transition/>
+        <Footer />
     </div>
 </template>
