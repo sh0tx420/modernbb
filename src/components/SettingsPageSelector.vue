@@ -11,8 +11,8 @@ const SettingsItems = [
                 href: "/settings/main"
             },
             {
-                label: "whar 2",
-                icon: "хуй знает"
+                label: "Theme",
+                icon: "i-heroicons-swatch"
             }
         ]
     },
@@ -39,7 +39,7 @@ const SettingsItems = [
                 <h3 class="text-neutral-400 font-mono">
                     {{ category.categoryName }}
                 </h3>
-                <UButton v-for="btn in category.buttons" color="primary" variant="ghost" :icon="btn.icon" :to="btn.href">
+                <UButton v-for="btn in category.buttons" color="purple" variant="ghost" :icon="btn.icon" :to="btn.href">
                     {{ btn.label }}
                 </UButton>
             </li>
