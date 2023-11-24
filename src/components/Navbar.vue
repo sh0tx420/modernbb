@@ -33,7 +33,7 @@
             </div>
 
             <div class="flex ml-auto">
-                <UButton label="Login" size="md" color="primary" icon="i-heroicons-arrow-right-on-rectangle" :trailing="true" />
+                <AuthButton />
             </div>
         </div>
     </nav>
