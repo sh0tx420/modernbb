@@ -3,5 +3,5 @@ await navigateTo({ path: "/settings/main"})
 </script>
 
 <template>
-    <SettingsPageSelector />
+    <div />
 </template>
