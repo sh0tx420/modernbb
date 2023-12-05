@@ -23,6 +23,8 @@
     "@nuxtjs/color-mode": "^3.3.0",
     "@nuxtjs/google-fonts": "^3.0.2",
     "@sidebase/nuxt-auth": "^0.6.0",
-    "vuex": "next"
+    "pocketbase": "^0.19.0",
+    "vuex": "next",
+    "zod": "^3.22.4"
   }
 }

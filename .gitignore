@@ -22,6 +22,8 @@ yarn.lock
 package-lock.json
 *.sh
 dev
+pocketbase
+pb_data
 
 # Local env files
 .env
