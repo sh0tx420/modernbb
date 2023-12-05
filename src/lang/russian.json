@@ -1,6 +1,13 @@
 {
     "navbar": {
         "home": "Главный",
-        "settings": "Настройки"
+        "settings": "Settings"
+    },
+    "validators": {
+        "required": "Required!",
+        "minimum": "Должно быть %i или более символов!",
+        "maximum": "Должно быть %i или менее символов!",
+        "regex_alphanumeric": "Must contain only alphanumeric characters!",
+        "passwords_nomatch": "Пароли не совпадают"
     }
 }
