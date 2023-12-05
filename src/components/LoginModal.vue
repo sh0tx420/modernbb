@@ -18,12 +18,9 @@ const tabs = [{ label: "Login" }, { label: "Register" }]
             </template>
 
             <UTabs v-model="store.currentTab" :items="tabs" />
-            <div v-if="store.currentTab === 0">
-                Здарова хохол
-            </div>
-            <div v-if="store.currentTab === 1">
-                <RegisterForm />
-            </div>
+
+            <FormLogin v-if="store.currentTab === 0" />
+            <FormRegister v-if="store.currentTab === 1" />
         </UCard>
     </UModal>
 </template>
